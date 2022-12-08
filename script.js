@@ -512,6 +512,11 @@ c=3;*/
 // let tf = (tc * 9 / 5) + 32;
 // alert(tf);
 //37.6
-let tf = 100;
-let tc = (tf - 32) * 5 / 9;
-alert(tc);
+// let tf = 100;
+// let tc = (tf - 32) * 5 / 9;
+// alert(tc);
+
+//38.1
+let mas = [1, 2, 3, 4];
+alert(mas);
+console.log(mas);
