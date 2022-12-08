@@ -621,5 +621,207 @@ c=3;*/
 // let arr = [1, 2, 3, 4, 5];
 // console.log(arr.length);
 //47.4
-let arr = [1, 2, 3, 4, 5];
-console.log(arr.length);
+// let arr = [1, 2, 3, 4, 5];
+// console.log(arr.length);
+
+//48.1
+// let obj = {1: 'mon', 2: 'tue', 3: 'wen', 4: 'thu', 5: 'fri', 6: 'sun', 7: 'sat' };
+// console.log(obj);
+
+//50.1
+// let user = {name: 'Samaya', surname: 'Joroeva', patronymic: 'Jamalidin'};
+// console.log(user['name']+' '+user['surname']+' '+user['patronymic']);
+
+//51.1
+// let date = {year: 2022, month: 12, day: 8};
+// console.log(date.year + "-" + date.month + '-' + date.day);
+
+//52.2
+// let obj = {
+// 	'1a': 1,
+// 	'b2': 2,
+// 	'с-с': 3,
+// 	'd 4': 4,
+// 	'e5': 5
+// };
+// console.log(obj['1a']);
+// console.log(obj.b2);
+// console.log(obj['c-c']);
+// console.log(obj['d 4']);
+// console.log(obj.e5);
+
+//53.1
+// let obj = {x: 1, y: 2, z: 3};
+// obj.x **= 2;
+// obj.y **= 2;
+// obj.z **= 2;
+// console.log(obj);
+
+//54.1
+// let obj = {};
+// obj.a = 11;
+// obj['a-2']=22;
+// console.log(obj);
+
+//55.1
+// let obj = {1:24, 4: 27, 3: 26, 2: 25};
+// console.log(obj[1]);
+// console.log(obj[2]);
+// console.log(obj[3]);
+// console.log(obj[4]);
+
+//56.1
+// let obj = {x: 1, y: 2, z: 3};
+// let keys = Object.keys(obj);
+// console.log(keys);
+
+//57
+// let obj = {x: 1, y: 2, z: 3};
+// console.log(Object.keys(obj).length);
+
+//58
+// let obj = {x: 1, y: 2, z: 3};
+// let key = 'x';
+// console.log(obj[key]);
+
+//59.1
+// let obj = {x: 1, y: 2, z: 3};
+// console.log(obj['x']);
+//59.2
+// let obj = {x: 1, y: 2, z: 3};
+// let key = 'x';
+// console.log(obj[key]);
+
+//60.1
+// let obj = {x: 1, y: 2, z: 3};
+// let prop = 'x';
+// console.log(obj[prop]);
+//60.2
+// let obj = {x: 1, y: 2, z: 3};
+// let prop = 'x';
+// console.log(obj[prop]);
+
+//61.1
+// let key = 'x';
+// let obj = {
+// 	[key]: 1,
+// 	y: 2,
+// 	z: 3
+// };
+//61.2
+// let obj = {
+// 	[key + '1']: 1,
+// 	[key + '2']: 2,
+// 	[key + '3']: 3
+// };
+// let key1 = 'x';
+// let key2 = 'y';
+// let key3 = 'z';
+
+//62
+// let obj = {x: 1, y: 2, z: 3};
+
+// console.log('x' in obj);
+// console.log('w' in obj);
+
+//63
+// let obj = {x: 1, y: 2, z: 3};
+// delete obj.x;
+// console.log('x' in obj);
+
+//64.1
+//console.log( typeof {x: 1, y: 2, z: 3} );
+//64.2
+//console.log( typeof {} );
+//64.3
+//let obj = {x: 1, y: 2, z: 3};
+//console.log( typeof obj );
+//64.4
+// let obj = {x: 1, y: 2, z: 3};
+// console.log( typeof obj['x'] );
+
+
+//65
+// console.log( typeof {x: 1, y: 2, z: 3} );
+// console.log( typeof [1, 2, 3] );
+// let arr = [1, 2, 3];
+// console.log( typeof arr );
+//  let arr = [1, 2, 3];
+//  console.log( typeof arr[0] );
+//  let arr = ['1', '2', '3'];
+//  console.log( typeof arr[0] );
+
+//67
+// let test = {x: 1, y: 2, z: 3};
+// console.log(typeof test);
+// let test = {x: 1, y: 2, z: 3};
+// console.log(typeof test.x);
+// let test = [1, 2, 3];
+// console.log(typeof test);
+// let test = [1, 2, 3];
+// console.log(typeof test[1]);
+// let test1 = [1, 2, 3];
+// let test2 = 1;
+// console.log(typeof test1);
+// let test1 = [1, 2, 3];
+// let test2 = 1;
+// console.log(typeof test1[test2]);
+
+//68.1
+// let arr1 = [1, 2, 3];
+// let arr2 = arr1;
+// arr1[0] = 'a';
+// console.log(arr2);
+//68.2
+// let arr1 = [1, 2, 3];
+// let arr2 = arr1;
+// arr1[0] = 'a';
+// arr2[1] = 'b';
+// console.log(arr1);
+//68.3
+// let arr1 = [1, 2, 3];
+// let arr2 = arr1;
+// arr1[0] = 'a';
+// arr2[0] = 'b';
+// console.log(arr2);
+// let arr1 = [1, 2, 3];
+// let arr2 = arr1;
+// arr1[0] = 'a';
+// arr2[0] = 'b';
+// console.log(arr1);
+
+//69.1
+// const arr = ['a', 'b', 'c'];
+// arr[1] = '!';
+// console.log(arr);
+//69.2
+// const arr = ['a', 'b', 'c'];
+// arr = [1, 2, 3];
+// console.log(arr);
+//69.3
+// const arr = ['a', 'b', 'c'];
+// arr = ['a', 'b', 'c'];
+// console.log(arr);
+
+// const obj = {x: 1, y: 2, z: 3};
+// obj['y'] = '!*!';
+// let key = 'z';
+// obj[key] = '$';
+// console.log()
+// console.log(obj);
+
+//71.1
+// let obj = {x: 1, y: 2, z: 3};
+// console.log(obj['x']);
+//71.2
+// let obj = {x: 1, y: 2, z: 3};
+// let key = 'x';
+
+// console.log(obj[key]);
+//71.3
+// let obj = {x: 1, y: 2, z: 3};
+// let sum = obj['x'] + obj['y'] + obj['z'];
+// console.log(sum);
+//71.4
+// let obj = {x: 1, y: 2, z: 3};
+// console.log(Object.keys(obj).length);
