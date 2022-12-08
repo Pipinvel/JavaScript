@@ -517,6 +517,109 @@ c=3;*/
 // alert(tc);
 
 //38.1
-let mas = [1, 2, 3, 4];
-alert(mas);
-console.log(mas);
+// let mas = [1, 2, 3, 4];
+// alert(mas);
+// console.log(mas);
+//38.2
+// let mas = ['a', 'b', 'c', 'd'];
+// alert(mas);
+// console.log(mas);
+
+//39.1
+// let arr = [1, 2, 3];
+// console.log(arr[0]);
+// console.log(arr[1]);
+// console.log(arr[2]);
+//39.3
+// let arr = [1, 2, 3];
+// alert(arr[0]+arr[1]+arr[2]);
+//39.4
+// let arr = ['a', 'b', 'c', 'd'];
+// alert(arr[0]+ "+" +arr[1]+ "+"+arr[2]+ "+"+arr[3]);
+
+//40.1
+//let arr = [1, 2, 6, '3', 'dfhskg', 'd', null];
+//alert(arr.length);
+//40.2
+// let arr = [1, 2, 6, '3', 'dfhskg', 'd', null];
+// alert(arr[arr.length-1]);
+
+//41.1
+// let arr = ['a', 'b', 'c'];
+// arr[0]=1;
+// arr[1]=2;
+// arr[2]=3;
+// console.log(arr);
+//41.2
+// let arr = [1, 2, 3];
+// arr[0] += 3;
+// arr[1] += 3;
+// arr[2] += 3;
+// console.log(arr);
+//41.3
+// let arr = [1, 2, 3];
+// arr[0]++;
+// ++arr[1];
+// arr[2]++;
+// console.log(arr);
+
+
+//42.1
+// let arr = [];
+// arr[0]=1;
+// arr[1]=2;
+// arr[2]=3;
+// alert(arr);
+//42.2
+// let arr = [1, 2, 3];
+// arr[3]=4;
+// arr[4]= 5;
+// console.log(arr);
+
+//43.1
+// let arr = [];
+
+// arr[3] = 'a';
+// arr[8] = 'b';
+// console.log(arr.length);
+
+//44.1
+// let arr = [];
+// arr.push(1);
+// arr.push(2);
+// arr.push(3);
+// console.log(arr);
+//44.2
+// let arr = [1, 2, 3];
+// arr.push(4);
+// arr.push(5);
+// console.log(arr);
+
+//45.1
+// let arr = ['a', 'b', 'c'];
+// let key = 2;
+// console.log(arr[key]);
+//45.2
+// let arr = [1, 2, 3, 4, 5];
+// let key1 = 1;
+// let key2 = 2;
+// console.log(arr[key1]+arr[key2]);
+
+//46.1
+// let arr = ['a', 'b', 'c', 'd', 'e'];
+// delete arr[3];
+// delete arr[1];
+// console.log(arr.length);
+
+//47.1
+// let arr = [1, 2, 3, 4, 5];
+// console.log(arr[arr.length-1]);
+//47.2
+// let arr = [1, 2, 3, 4, 5];
+// console.log(arr[0] + arr[1] + arr[2] + arr[3] + arr[4]);
+//47.3
+// let arr = [1, 2, 3, 4, 5];
+// console.log(arr.length);
+//47.4
+let arr = [1, 2, 3, 4, 5];
+console.log(arr.length);
