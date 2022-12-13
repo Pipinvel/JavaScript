@@ -825,3 +825,559 @@ c=3;*/
 //71.4
 // let obj = {x: 1, y: 2, z: 3};
 // console.log(Object.keys(obj).length);
+
+//73.1
+// let test = 11;
+// if (test>10){
+//     console.log('+++');
+// }else{
+//     console.log("---");
+// }
+//73.2
+// let test = 9;
+// if(test < 10){
+//     console.log('+++');
+// }else {
+//     console.log('---');
+// }
+//73.3
+// let test = 10;
+// if(test <= 10){
+//     console.log('+++');
+// }else {
+//     console.log('---');
+// }
+//73.4
+// let test = 11;
+// if(test <= 10){
+//     console.log('+++');
+// }else {
+//     console.log('---');
+// }
+
+//74.1
+// let test = 9;
+// if(test == 10){
+//     console.log('+++');
+// }else {
+//     console.log('---');
+// }
+
+//75.1
+// let test = 9;
+// if(test != 10){
+//     console.log('+++');
+// }else {
+//     console.log('---');
+// }
+
+//76.1
+// let test = 9;
+// let test2 = 9;
+// if(test > test2){
+//     console.log('+++');
+// }else {
+//     console.log('---');
+// }
+//76.2
+// let test = 9;
+// let test2 = 9;
+// if(test == test2){
+//     console.log('+++');
+// }else {
+//     console.log('---');
+// }
+
+//77
+// let test = 'kjhlk';
+// let test2 = "jwehiwu";
+// if(test == test2){
+//     console.log('+++');
+// }else {
+//     console.log('---');
+// }
+
+//79.1
+// let test1 = '3';
+// let test2 = '3';
+		
+// if (test1 == test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//79.2
+// let test1 = '3';
+// let test2 = '3';
+		
+// if (test1 === test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//79.3
+// let test1 = 3;
+// let test2 = '3';
+		
+// if (test1 == test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//79.4
+// let test1 = 3;
+// let test2 = '3';
+		
+// if (test1 === test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//79.5
+// let test1 = 3;
+// let test2 = 3;
+		
+// if (test1 === test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+
+//80.1
+// let test1 = '3';
+// let test2 = '3';
+		
+// if (test1 != test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//80.2
+// let test1 = '3';
+// let test2 = '3';
+		
+// if (test1 !== test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//80.3
+// let test1 = 3;
+// let test2 = '3';
+		
+// if (test1 != test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//80.4
+// let test1 = 3;
+// let test2 = '3';
+		
+// if (test1 !== test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//80.5
+// let test1 = 3;
+// let test2 = 2;
+		
+// if (test1 !== test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+//81.1
+// let num = 4;
+// if (num>0 && num <5){
+//     console.log('right');
+// }else{
+//     console.log('wrong');
+// }
+//81.2
+// let num = 15;
+// if (num>=10 && num <=20){
+//     console.log('right');
+// }else{
+//     console.log('wrong');
+// }
+//81.3
+// let num1 = 1;
+// let num2 = 4;
+// if (num1<=1 && num2 >=3){
+//     console.log('right');
+// }else{
+//     console.log('wrong');
+// }
+
+//82.1
+// let num1 = -10;
+// let num2 = -10;
+// if (num1 >= 0 || num2 >= 0) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//82.2
+// let num1 = 0;
+// let num2 = 0;
+// if (num1 >= 0 || num2 >= 0) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//82.3
+// let num1 = 0;
+// let num2 = 5;
+// if (num1 >= 0 || num2 >= 0) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//82.4
+// let num1 = 5;
+// let num2 = 5;
+// if (num1 >= 0 || num2 >= 0) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//82.5
+// let num1 = -5;
+// let num2 = 15;
+// if (num1 >= 0 || num2 >= 0) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//82.6
+// let num = 1;
+// if (num == 0 || num == 1) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//82.7
+// let num = 2;
+// if (num == 0 || num == 1) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//82.8
+// let num = 2;
+// if (num == 0 || num == 1 || num == 2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+//83
+// let num = 0;
+// if (num == 0 || num > 1 && num < 5 ) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+//84.1
+// let num = 3;
+// if ((num > 5 && num < 10) || num == 20) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//84.2
+// let num = 3;
+// if (num > 5 || (num > 0 && num < 3)) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//84.3
+// let num = 3;	
+// if (num == 9 || (num > 10 && num < 20) || (num > 20 && num < 30)) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+
+//85
+// let num1 = 0;
+// let num2 = 2;
+// if (!(num1 >= 0 || num2 <= 10)) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+//86.1
+// let test = true;
+// if (test === true) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//86.2
+// let test = false;
+// if (test === false) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+//87.1
+// let test = "6788";
+// if (Boolean(test) == true) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//87.2
+// let test = 1;
+// if (test == true) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//87.3
+// let test = 0;
+// if (test == true) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//87.4
+// let test = 1;
+// if (test == false) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//87.5
+// let test = 1;
+// if (test != true) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//87.6
+// let test = '';	
+// if (test == false) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//87.7
+// let test;		
+// if (test == true) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//87.8
+// let test = 3 * 'a';	
+// if (test == true) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+//88
+// let test = true;
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+//89.1
+// let test = true;
+
+// if (!test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//89.2
+// let test = true;
+// if (!test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//89.3
+// let test = false;
+
+// if (!test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+//90.1
+// let test = 3;
+
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//90.2
+// let test = 'abc';
+
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//90.3
+// let test = '';
+
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//90.4
+// let test = 3 * 'abc';
+
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//90.5
+// let test = null;
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//90.6
+// let test = false;
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//90.7
+// let test;
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//90.8
+// let test = 0;
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//90.9
+// let test = '0';
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//90.10
+// let test = -1;
+// if (test) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+//91.1
+// let test1 = true;
+// let test2 = true;
+
+// if (test1 && test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//91.2
+// let test1 = true;
+// let test2 = true;
+// if (test1 && !test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//91.3
+// let test1 = true;
+// let test2 = true;
+// if (!test1 && !test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//91.4
+// let test1 = true;
+// let test2 = true;
+// if (!(!test1) && test2) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+//91.5
+// let test1 = true;
+// let test2 = true;
+// let test3 = true;
+
+// if (test1 && test2 && test3) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+// //91.7
+// let test1 = true;
+// let test2 = true;
+// let test3 = true;
+
+// if (test1  || !test2 && !test3) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+//92
+// let test = 10;
+// if(test == 10){
+// 	console.log("yes");
+// }
+
+//93.1
+//if (test > 0) console.log('+++');else console.log('---');
+//93.2
+//let test = -1;
+//if (test>0) console.log('+++');
+
+//94.1
+// let day = 31;
+// if (day<=10){
+// 	console.log('first decade');
+// }else if (day <=20){
+// 	console.log('second decADE');
+// }else if (day <= 31){
+// 	console.log('third decade');
+// }
+//94.2
+let day = 60;
+if (day<=10){
+	console.log('first decade');
+}else if (day <=20){
+	console.log('second decADE');
+}else if (day <= 31){
+	console.log('third decade');
+}else {
+	console.log('error!');
+}
+
