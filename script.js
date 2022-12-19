@@ -1699,11 +1699,241 @@ c=3;*/
 // let res = +(str[0]) + +(str[1]) + +(str[2]);
 // console.log(res);
 //109.5
-let num = '131032';
-let sum1 = +(num[0]) + +(num[1]) + +(num[2]);
-let sum2 = +(num[3]) + +(num[4]) + +(num[5]);
-if (sum1 == sum2){
-	console.log('yes');
-}else {
-	console.log('no');
-}
+// let num = '131032';
+// let sum1 = +(num[0]) + +(num[1]) + +(num[2]);
+// let sum2 = +(num[3]) + +(num[4]) + +(num[5]);
+// if (sum1 == sum2){
+// 	console.log('yes');
+// }else {
+// 	console.log('no');
+// }
+
+//циклы
+//111.1
+// for (let i = 1; i <= 100; i++){
+// 	console.log(i);
+// }
+//111.3
+// for (let i = 0; i <= 100; i += 2){
+// 	console.log(i);
+// }
+//111.4
+// for (let i = 1; i <= 99; i += 2){
+// 	console.log(i);
+// }
+//111.5
+// for (let i = 100; i > 0; i--){
+// 	console.log(i);
+// }
+
+//112
+// let arr = ['a', 'b', 'c', 'd', 'e'];
+// for(let elem of arr){
+// 	console.log(elem);
+// }
+
+//113.1
+// let obj = {x: 1, y: 2, z: 3};
+// for (let key in obj){
+// 	console.log(key);
+// }
+//113.2
+// let obj = {x: 1, y: 2, z: 3};
+// for (let key in obj){
+// 	console.log(obj[key]);
+// }
+
+//114.1
+// let i = 1;
+// while (i <= 100) {
+// 	console.log(i);
+// 	i++;
+// }
+//114.2
+// let i = 11;
+// while (i <= 33) {
+// 	console.log(i);
+// 	i++;
+// }
+//114.3
+// let num = 24;
+// while (num < 1000) {
+// 	num = num * 3;
+// }
+// console.log(num);
+
+//115.1
+// let arr = ['a', 'b', 'c', 'd', 'e'];
+// for (let i = 0; i < arr.length; i++){
+// 	console.log(arr[i]);
+// }
+//115.2
+// let arr = ['a', 'b', 'c', 'd', 'e'];
+// for (let i = 1; i <= arr.length-2; i++){
+// 	console.log(arr[i]);
+// }
+//115.3
+// let arr = ['a', 'b', 'c', 'd', 'e'];
+// for (let i = arr.length-1; i >= 0; i--){
+// 	console.log(arr[i]);
+// }
+//115.4
+// let arr = ['a', 'b', 'c', 'd', 'e'];	
+// for (let i = 0; i <= arr.length-1; i++) {
+// 	console.log(arr[i]);
+// }
+
+//116.1
+// let arr = [2, 5, 9, 15, 1, 4];
+// for (let elem of arr){
+// 	if (elem >3 && elem < 10) {
+// 		console.log(elem);
+// 	}
+// }
+//116.2
+// let obj = {a: 1, b: 2, c: 3, d: 4, e: 5};
+// for (let key in obj){
+// 	if (obj[key] % 2 !== 0){
+// 		console.log(obj[key]);
+// 	}
+// }
+
+//117
+// let res = 0;
+// for (let i = 1; i <= 99; i += 2){
+// 	res += i;
+// }
+// 	console.log(res);
+//117,3
+// let res = 1;
+// for (let i = 1; i < 20; i++ ){
+// 	res = res * i;
+// }
+// console.log(res);
+
+//118
+// let arr = [2, 5, 9, 3, 1, 4];
+// let res = 0;
+// for (let elem of arr){
+// 	res = res + elem
+// }
+// console.log(res);
+//118.2
+// let arr = [2, 5, 9, 3, 1, 4];
+// let res = 0;
+// for (let elem of arr){
+// 	if (elem % 2 === 0){
+// 		res += elem;
+// 	}
+// }
+// console.log(res);
+//118.3
+// let arr = [2, 5, 9, 3, 1, 4];
+// let res = 0;
+// for (let elem of arr){
+// 	res += elem ** 2;
+// }
+// console.log(res);
+//118.4
+// let arr = [2, 5, 9, 3, 1, 4];
+// let res = 1;
+// for (let elem of arr){
+// 	res = res * elem;
+// }
+// console.log(res);
+
+//119.1
+// let str = '';
+// for (let i = 0; i < 5; i++) {
+// 	str += '-';
+// }
+// console.log(str);
+//119.2
+// let str = '';
+// for (let i = 1; i < 10; i++) {
+// 	str += i;
+// }
+// console.log(str);
+//119.3
+// let str = '';
+// for (let i = 9; i > 0; i--){
+// 	str += i;
+// }
+// console.log(str);
+//119.4
+// let str = '';
+// for (let i = 1; i < 10; i++) {
+// 	str += '-'+ i ;
+// }
+// console.log(str);
+
+//................
+// for (let i = 10; i <= 1000; i++) {
+// 	let str = String(i); // преобразуем число в строку
+	
+// 	let res = 0;
+// 	res = str[0] + str[1];
+// 	console.log(res);
+// }
+
+
+// for (let i = 10; i < 1000; i++) {
+// 	let str = i;
+// 	console.log(str);
+// }
+//.......................
+
+//120.1
+// for (let i = 10; i < 1000; i++) {
+// 	let str = String(i);
+// 	console.log(str[0]);
+// }
+//120.2
+// for (let i = 10; i < 1000; i++) {
+// 	let str = String(i)[0] + String(i)[1];
+		
+// 	console.log(str[i]);
+// }
+//120.3
+// for (let i = 10; i < 1000; i++) {
+// let str = String(i);
+// 	if (str[0]==='1'){
+// 		console.log(i);
+// 	}		
+//  }
+//120.4
+// for (let i = 10; i < 1000; i++) {
+// 	let str = String(i);
+// 	if(str[0]+ str[1] == '5'){
+// 		console.log(i);
+// 	}
+// }
+
+//121.1
+// let arr = [1, 2, 9, 0, 9, 6];
+// for (let elem of arr){
+// 	console.log(elem);
+// 	if(elem == 0){
+// 		break;
+// 	}
+// }
+//121.2
+// let arr = [1, 4, 3, -2, 3];
+// let sum = 0;
+// for (let elem of arr){
+
+	
+// 	if (elem >0){
+// 		sum = sum + elem;
+// 		console.log(sum);
+// 		// break;
+// 	}
+	
+// }
+
+// let arr = [2, 5, 9, 3, 1, 4];
+// let res = 0;
+//  for (let elem of arr){
+//  	res = res + elem
+//  }
+//  console.log(res);
