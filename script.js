@@ -2374,11 +2374,175 @@ c=3;*/
 // }
 // console.log(sum);
 //137.10
-let arr = [1, 2, 3, 4, 5];
-let sum = 0;
-let sum2= 0;
-for (let elem of arr){
-	sum += elem;
-	sum2 = sum / arr.length;
+// let arr = [1, 2, 3, 4, 5];
+// let sum = 0;
+// let sum2= 0;
+// for (let elem of arr){
+// 	sum += elem;
+// 	sum2 = sum / arr.length;
+// }
+// console.log(sum2);
+//137.11
+// let a = prompt('введите число');
+// let res = 1;
+// for (let i = 1; i<=a; i++ ){
+// 	res *= i; 
+// }
+// alert('факториал числа: ' + res);
+//137.12
+// let arr = [];
+// for (let i = 10; i>=1; i--){
+// 	arr.push(i);
+// }
+// console.log(arr);
+//137.13
+// let arr = [1, 2, 3, -8, -2, 4, 5];
+// let sum = 0;
+// for (let elem of arr){
+// 	if (elem > 0){
+// 		sum += elem;
+// 	}
+// }
+// console.log(sum);
+//137.14
+// let arr = [10, 20, 30, 50, 235, 3000];
+// for (let elem of arr){
+// 	let k = String(elem)[0];
+// 	if (k == 1 || k == 2 || k == 5){
+// 		console.log(elem);
+// 	}
+// }
+//137.15
+// let arr = [1, 2, 3, 4, 5];
+// for (let i = arr.length-1; i>=0; i-- ){
+// 				//arr.push(arr[i]);			
+// 	console.log(arr[i]);
+// }
+//137.16
+// let arr=[1, 2, 0, 3, 4, 6, 7];
+// for (let i = 0; i< arr.length; i++){
+// 	if (i == arr[i]){
+// 		console.log(arr[i]);
+// 	}
+// }
+//137.17
+// let arr = [1, 2, 3, 4, 5];
+// for (let elem of arr){
+// 	document.write(elem + '<br>');
+// }
+//137.18
+// let arr = [1, 2, 3, 4, 5];
+// for (let elem of arr){
+// 	document.write( '<p>' +elem + '</p>');
+// }
+//137.19
+// let arr = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс'];
+// for (let elem of arr){
+	
+// 	if (elem == 'сб'|| elem == 'вс'){
+// 		elem = '<b>' + elem + '</b>';
+// 	}
+// 	document.write(elem + ' ');
+// }
+//137.20
+// let arr = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс'];
+// let day = arr[3];
+// for (let elem of arr){
+// 	if (elem == day){
+// 		elem = '<i>' + elem + '</i>';
+// 	}
+// 	document.write(elem + ' ');
+	
+// }
+//137.21
+// let obj = {
+// 	employee1: 100,
+// 	employee2: 200,
+// 	employee3: 300,
+// 	employee4: 400,
+// 	employee5: 500,
+// 	employee6: 600,
+// 	employee7: 700,
+// };
+// for (let key in obj){
+// 	obj[key]  = obj[key] + (obj[key] * 10 / 100);
+// }
+// console.log(obj);
+//137.22
+// let obj = {
+// 		employee1: 100,
+// 		employee2: 200,
+// 		employee3: 300,
+// 		employee4: 400,
+// 		employee5: 500,
+// 		employee6: 600,
+// 		employee7: 700,
+// 	};
+
+// for (let key in obj){
+// 	if (obj[key] <= 400){
+// 		obj[key]  = obj[key] + (obj[key] * 10 / 100);
+// 	}
+// }
+// console.log(obj);
+//137.23
+// let arr1 = [1, 2, 3, 4, 5];
+// let arr2 = [6, 7, 8, 9, 10];
+// let obj = {};
+// for (let i = 0; i< arr1.length; i++){
+// 	obj[arr1[i]] = arr2[i];
+// }
+// console.log(obj);
+//137.24
+// let obj = {1: 6, 2: 7, 3: 8, 4: 9, 5: 10};
+// let sum = 0;
+// let sum2 = 0;
+// let res = 1;
+// for (let key in obj){
+// 	sum += +key;
+// 	sum2 += obj[key];
+// 	res = sum / sum2;
+// }
+// console.log(res);
+//137.25
+// let obj = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5};
+// let arr1 = [];
+// let arr2 = [];
+// for (let key in obj){
+// 	arr1.push(key);
+// 	arr2.push(obj[key]);
+// } 
+// console.log(arr1);
+// console.log(arr2);
+//137.26
+// let obj = {
+// 	1: 125,
+// 	2: 225,
+// 	3: 128,
+// 	4: 356,
+// 	5: 145,
+// 	6: 281,
+// 	7: 452,
+// };
+// let arr = [];
+// for (let key in obj){
+// 	let k = String(obj[key])[0];
+// 	if(k == 1 || k == 2){
+// 		arr.push(obj[key]);
+// 	}
+// }
+// console.log(arr);
+//137.27
+// let arr = ['a', 'b', 'c', 'd', 'e'];
+// let obj = {};
+// for (let i = 0; i < arr.length; i++){
+// 	obj[i+1] = arr[i];
+// }
+// console.log(obj);
+//137.28
+let arr = ['a', 'b', 'c', 'd', 'e'];
+let obj = {};
+for (let i = 0; i < arr.length; i++){
+	obj[arr[i]] = i+1;
 }
-console.log(sum2);
+console.log(obj);
