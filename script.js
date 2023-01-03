@@ -3291,3 +3291,259 @@ c=3;*/
 // students.group4.subgroup41 = [];
 // students.group4.subgroup42 = [];
 // console.log(students);
+
+
+//151.1
+// console.log(Math.pow(2, 10));
+// console.log(Math.sqrt(245));
+//151.3
+// let arr = [4, 2, 5, 19, 13, 0, 10];
+// let sum = 0;
+// for (let i of arr){
+// 	sum += Math.pow(i, 3);
+// }
+// console.log(sum);
+
+//151.4
+// let num = Math.sqrt(379);
+// console.log(Math.round(num));
+// console.log(num.toFixed(1));
+// console.log(num.toPrecision(4));
+//151.5
+// let num = Math.sqrt(587);
+// let c= Math.ceil(num);
+// let f= Math.floor(num);
+// let obj = {'ceil': c, 'floor': f};
+// console.log(obj);
+// console.log(num);
+
+//151.6
+//console.log(Math.max(4, -2, 5, 19, -130, 0, 10));
+//console.log(Math.min(4, -2, 5, 19, -130, 0, 10));
+
+//151.7
+// function getRandomInt(min, max) {
+// 	return Math.floor(Math.random() * (max - min + 1)) + min;
+// }
+
+// console.log(getRandomInt(1, 100));
+
+//........................................................
+// Получение случайного дробного числа между min и max:
+
+// function getRandomArbitary(min, max) {
+// 	return Math.random() * (max - min) + min;
+// }
+// Получение случайного целого числа между min и max:
+
+// function getRandomInt(min, max) {
+// 	return Math.floor(Math.random() * (max - min + 1)) + min;
+// }
+//..........................................................
+
+//151.8
+// let arr = [];
+// for (let i = 0; i < 10; i++ ){
+// 	function getRandomInt(min, max) {
+// 		return Math.floor(Math.random() * (max - min + 1)) + min;
+// 	}
+// 	arr.push(getRandomInt(1, 100))
+// }
+// console.log(arr);
+
+//151.9
+// let a =5;
+// let b= 8;
+// console.log(Math.abs(a-b));
+
+//152.1
+// let str = 'js';
+// console.log(str.toUpperCase());
+//
+//let str = 'JS';
+//console.log(str.toLowerCase());
+
+//152.3
+// let str = 'я учу javascript!';
+// let sub = str.substr(2, 3);
+// let sub2 = str.substr(6);
+// console.log(sub, sub2);
+// let sub3 = str.substring(2, 5);
+// let sub4 = str.substring(6);
+// console.log(sub3, sub4);
+// let sub5 = str.slice(2, 5);
+// let sub6 = str.slice(6);
+// console.log(sub5, sub6 );
+
+//152.4
+// let str = 'abcde';
+// console.log(str.indexOf('c'));
+// console.log(str.indexOf('a'));
+// console.log(str.lastIndexOf('a'));
+// let str2 = 'http:/uitf' ;
+// console.log(str2.indexOf( 'http://'));
+
+//152.10
+//let str = 'http://nbruhmmbriomev,.html';
+//console.log(str.startsWith( 'http://'));
+//console.log(str.endsWith('.html', 15));
+
+//152.12
+// let str = '1-2-3-4-5';
+// let arr = str.split('-');
+// console.log(arr);
+// let str2 = "12345";
+// let arr2 = str2.split('');
+// console.log(arr2);
+
+//152.14
+// let arr = [1, 2, 3, 4, 5];
+// let str = arr.join('-');
+// console.log(str);
+
+//153.1
+// let arr = [1, 2, 3];
+// arr.push(4, 5, 6);
+// console.log(arr);
+// arr.unshift(4,5,6);
+// console.log(arr);
+
+//153.3
+// let arr = [1, 2, 3];
+// let first = arr.shift();
+// console.log(first);
+// let last = arr.pop();
+// console.log(last);
+
+//153.5
+//let arr =[1, 2, 3, 4, 5];
+//let sl = arr.slice(0, -2);
+//console.log(sl);
+//let arr2 = arr.slice(3);
+// console.log(arr2);
+
+//153.7
+//let arr =[1, 2, 3, 4, 5];
+//
+// let news = arr.splice(1, 2);
+// console.log(arr);
+// arr.splice(3, 0, 'a', 'b', 'c');
+// console.log(arr);
+
+// arr.splice(1, 0, 'a', 'b');
+// arr.splice(6, 0, 'c');
+// arr.push('e');
+// console.log(arr);
+
+//153.10
+// let pos = arr.indexOf(3);
+// console.log(pos);
+
+//let result = arr.includes(3);
+//console.log(result);
+
+
+//154.1
+// let str = 'orphon';
+// let  res = str.slice(0, -1) + str.substr(-1, 1).toUpperCase();
+// console.log(res); 
+
+//154.2
+// let str = 'orphon';
+// let res = str.slice(0, 2).toUpperCase() + str.slice(2);
+// console.log(res);
+
+//154.3
+// let str = 'London';
+// let res = str.slice(0, 1).toLowerCase() + str.slice(1);
+// console.log(res);
+
+//154.4
+// let str = 'word1 word2 word3';
+// let arr = str.split(' ');
+// for (let i = 0; i < arr.length; i++){
+//     arr[i] = arr[i].slice(0, 1).toUpperCase() + arr[i].slice(1);
+// }
+// let result = arr.join(' ');
+// console.log(result);
+
+//154.5
+// let str = 'var_test_text';
+// let word = str.split('_');
+// for (let i = 0; i < word.length; i++){
+//     word[i] = word[i].slice(0, 1).toUpperCase() + word[i].slice(1);
+
+// }
+// let res = word.join('');
+// console.log(res);
+
+//154.6
+// let str = 'var_test_text';
+// let word = str.split('_');
+// for (let i = 0; i < word.length; i++){
+//     word[i] = word[i].slice(0, 1).toUpperCase() + word[i].slice(1);
+
+// }
+// let res = word.join('');
+// let nres = res.slice(0, 1).toLowerCase() + res.slice(1);
+// console.log(nres);
+
+//154.7
+// let str = 'power';
+// let res = str.split('').reverse().join('');
+// console.log(res);
+
+//155.1
+// let num = '12345';
+// let arr = num.split('');
+
+// let sum = 0;
+// for (let digit of arr) {
+// 	sum += Number(digit);
+// }
+
+// console.log(sum);
+
+//155.2
+// let num = 12345;
+// let arr = String(num).split('');
+
+// let sum = 0;
+// for (let digit of arr) {
+// 	sum += Number(digit);
+// }
+
+// console.log(sum);
+
+//155.3
+// let num = 12345;
+// let arr = String(num).split('');
+
+// let sum = 0;
+// for (let digit of arr) {
+// 	sum += Number(digit);
+// }
+
+// console.log(sum);
+
+//155.4
+// let num = 12345;
+// let arr = String(num).split('');
+
+// let sum = 0;
+// for (let digit of arr) {
+// 	sum += Number(digit);
+// }
+
+// console.log(sum);
+
+//155.5
+let num = 12345;
+let arr = String(num).split('');
+
+let prod = 0;
+for (let digit of arr) {
+	prod += Number(digit);
+}
+
+console.log(prod);
